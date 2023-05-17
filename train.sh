@@ -25,4 +25,4 @@ fi
 srun -p ${PARTITION} --job-name=${JOB_NAME} --gres=gpu:${GPUS_PER_NODE} \
     --ntasks=${GPUS} --ntasks-per-node=${GPUS_PER_NODE}  --cpus-per-task=${CPUS_PER_TASK} \
     python -m point_e.train --config=${CONFIG} --save-root=${WORK_DIR} --num-workers=${CPUS_PER_TASK} --log-dir=${LOG_FILE} --cond ${COND} \
-    # 2>&1 | tee $WORK_DIR/log.txt > /dev/null &
+    2>&1 | tee $WORK_DIR/log.txt > /dev/null &
