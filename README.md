@@ -12,10 +12,10 @@ Install with `pip install -e .`.
 
 To get started with aforementioned training data:
 
- * [train.sh](point_e/train.sh) - training shell based on slurm, you can run as following: `sh train.sh 32 train your_slurm_partition texts 5 point_e_save point_e/configs/shapenet.json`
+ * [train.sh](point_e/train.sh) - training shell based on slurm, you can run as following: `sh train.sh 32 train {your_slurm_partition} texts 5 point_e_save point_e/configs/shapenet.json`
 
 To visualize:
-* [vis.sh](point_e/vis.sh) - sample point clouds, conditioned on text prompts, you can run as following: `sh vis.sh your_slurm_partition`
+* [vis.sh](point_e/vis.sh) - sample point clouds, conditioned on text prompts, you can run as following: `sh vis.sh {your_slurm_partition}`
 
 
 For P-FID and P-IS evaluation scripts, see:
