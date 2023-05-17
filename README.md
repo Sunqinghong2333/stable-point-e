@@ -26,6 +26,6 @@ For P-FID and P-IS evaluation scripts, see:
 
 ## Acknowledgement
 
-* Thanks [OpenAI](https://arxiv.org/abs/2212.08751) for implementing the [Point-E]((https://github.com/openai/point-e)) codebase.
+* Thanks [OpenAI](https://arxiv.org/abs/2212.08751) for implementing the [Point-E](https://github.com/openai/point-e) codebase.
 
 * Thanks [Yongqiang Yao](https://github.com/yqyao) for the implementation of [Distributed PyTorch](https://github.com/ModelTC/United-Perception).
