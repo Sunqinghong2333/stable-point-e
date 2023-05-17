@@ -23,7 +23,6 @@ For P-FID and P-IS evaluation scripts, see:
  * [evaluate_pfid.py](point_e/evals/scripts/evaluate_pfid.py)
  * [evaluate_pis.py](point_e/evals/scripts/evaluate_pis.py)
 
-For our Blender rendering code, see [blender_script.py](point_e/evals/scripts/blender_script.py)
 
 ## Acknowledgement
 
